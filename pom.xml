@@ -6,9 +6,9 @@
   <name>lemon</name>
   <packaging>war</packaging>
   <description>Lemon is an OA.</description>
-  
+
   <inceptionYear>2015</inceptionYear>
-  
+
   <licenses>
     <license>
       <name>The Apache Software License, Version 2.0</name>
@@ -16,16 +16,16 @@
       <distribution>repo</distribution>
     </license>
   </licenses>
-  
+
   <!--
   <contributors>
     <contributor>
       <name>Someone</name>
     </contributor>
   </contributors>-->
-  
-  
-  
+
+
+
   <prerequisites>
     <maven>3.0</maven>
   </prerequisites>
@@ -1388,7 +1388,7 @@
     <inspektr.version>1.1.GA</inspektr.version>
     <quartz.version>2.2.2</quartz.version>
     <h2.version>1.4.190</h2.version>
-    <mysql.version>5.1.37</mysql.version>
+    <mysql.version>8.0.33</mysql.version>
     <activiti.version>5.18.0</activiti.version>
     <cxf.version>3.1.3</cxf.version>
     <flyway.version>3.2.1</flyway.version>
@@ -1590,9 +1590,9 @@
       </build>
     </profile>
     <profile>
-      <id>java6</id>
+      <id>java8</id>
       <activation>
-        <jdk>[1.6,1.7]</jdk>
+        <jdk>[1.6,1.7,1.8]</jdk>
       </activation>
       <build>
         <plugins>
